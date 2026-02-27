@@ -1,4 +1,3 @@
----
 name: Run tests
 
 on:
@@ -8,4 +7,14 @@ on:
 
 jobs:
   pytest:
-    uses: colcon/ci/.github/workflows/pytest.yaml@main
+    runs-on: ubuntu-latest            # same as the reused workflow
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: install direnv
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y direnv
+
+      # now call the reusable workflow; it will run in the same runner
+      - uses: colcon/ci/.github/workflows/pytest.yaml@main
