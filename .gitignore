@@ -22,3 +22,8 @@ MANIFEST
 # pixi environments
 .pixi/*
 !.pixi/config.toml
+
+# ROS
+build
+install
+log
