@@ -55,6 +55,3 @@ class direnvVerb(VerbExtensionPoint):
         lines = [line + "\n" for line in lines]
         with envrc_path.open("w") as f:
             f.writelines(lines)
-
-        # exit code 0 indicates success
-        return 0

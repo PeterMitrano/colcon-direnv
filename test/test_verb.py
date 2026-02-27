@@ -19,6 +19,5 @@ def test_verb_interface():
     args = Object()
     context = CommandContext(command_name='direnv', args=args)
 
-    context.args.subverb_name = None
     rc = interface.main(context=context)
     assert rc is None

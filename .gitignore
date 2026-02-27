@@ -17,8 +17,9 @@ share/python-wheels/
 *.egg
 MANIFEST
 
-# Unit test / coverage reports
+# Unit test
 .pytest_cache/
+
 # pixi environments
 .pixi/*
 !.pixi/config.toml
