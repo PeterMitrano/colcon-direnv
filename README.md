@@ -31,7 +31,7 @@ For now, we settle for a global python package install with pip
 
 Go to the root of your workspace, e.g. `~/code/ws`
 ```bash
-pip install --break-system-packages git@github.com:PeterMitrano/colcon-direnv.git
+pip install --break-system-packages git+https://github.com/PeterMitrano/colcon-direnv
 colcon direnv
 direnv allow
 ```
