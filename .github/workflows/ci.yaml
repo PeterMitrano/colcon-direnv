@@ -14,8 +14,7 @@ jobs:
       - name: install direnv
         run: |
           sudo apt-get update
-          sudo apt-get install -y direnv
-          sudo apt install python3-colcon-common-extensions
+          sudo apt-get install -y direnv python3-colcon-common-extensions
 
       - name: install colcon-direnv
         run: |
