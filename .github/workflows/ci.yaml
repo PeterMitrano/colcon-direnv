@@ -16,5 +16,10 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y direnv
 
-      # now call the reusable workflow; it will run in the same runner
-      - uses: colcon/ci/.github/workflows/pytest.yaml@main
+      - name: install colcon-direnv
+        run: |
+          pip install --break-system-packages .
+
+      - name: run tests
+        run: |
+          pytest -v test
