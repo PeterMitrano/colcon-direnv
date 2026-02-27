@@ -10,12 +10,15 @@ A colcon verb for initializing a `COLCON_DEFAULTS_FILE`, and optionally also con
 
 # Installing from github
 
+We assume you already have ROS 2 (humble, jazzy, ...) installed and colcon installed.
+
 :construction: Once sufficiently tested, this package will be installable from standard `apt` repositories or from `conda-forge` repositories (for use with Pixi).
 
-First, you should have `direnv` installed and configured
+First, you should have `direnv` installed and configured.
+We also ensure we have `jinja`, thought it is probably already installed
 
 ```bash
-sudo apt install direnv
+sudo apt install direnv python3-jinja2
 ```
 
 Add the following line at the end of the ~/.bashrc file:
