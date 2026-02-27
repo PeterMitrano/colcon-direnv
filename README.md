@@ -1,4 +1,4 @@
-# colcon_direnv
+# :package: colcon_direnv
 
 A colcon verb for initializing a `COLCON_DEFAULTS_FILE`, and optionally also configuring `direnv`.
 
