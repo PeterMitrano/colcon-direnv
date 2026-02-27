@@ -12,6 +12,18 @@ A colcon verb for initializing a `COLCON_DEFAULTS_FILE`, and optionally also con
 
 :construction: Once sufficiently tested, this package will be installable from standard `apt` repositories or from `conda-forge` repositories (for use with Pixi).
 
+First, you should have `direnv` installed and configured
+
+```bash
+sudo apt install direnv
+```
+
+Add the following line at the end of the ~/.bashrc file:
+
+```bash
+eval "$(direnv hook bash)"
+```
+
 For now, we settle for a global python package install with pip
 
 Go to the root of your workspace, e.g. `~/code/ws`
