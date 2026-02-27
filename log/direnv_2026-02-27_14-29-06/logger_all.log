@@ -1,0 +1,2 @@
+[0.627s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/home/peter/code/colcon-direnv/.pixi/envs/jazzy/bin/colcon', 'direnv'][0m
+[0.628s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='direnv', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7ee9c9d01610>, verb_extension=<colcon_direnv.verb.direnv.direnvVerb object at 0x7ee9cac09580>, main=<bound method direnvVerb.main of <colcon_direnv.verb.direnv.direnvVerb object at 0x7ee9cac09580>>)[0m

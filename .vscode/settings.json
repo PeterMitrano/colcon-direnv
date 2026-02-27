@@ -1,0 +1,21 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#401170",
+        "titleBar.activeBackground": "#59189D",
+        "titleBar.activeForeground": "#FCFAFE",
+        "titleBar.inactiveBackground": "#401170",
+        "titleBar.inactiveForeground": "#FCFAFE",
+        "statusBar.background": "#401170",
+        "statusBar.foreground": "#FCFAFE",
+        "statusBar.debuggingBackground": "#401170",
+        "statusBar.debuggingForeground": "#FCFAFE",
+        "statusBar.noFolderBackground": "#401170",
+        "statusBar.noFolderForeground": "#FCFAFE"
+    },
+    "python.testing.pytestArgs": [
+        "test",
+        "--color=yes"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
+}
